@@ -1,0 +1,43 @@
+.buttonBack {
+    font-size: 20px;
+    margin-right: 20px;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 50%;
+    padding: 30px 20px;
+    background: none;
+}
+.buttonNext {
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 30px 20px;
+    background: none;
+}
+.text-name {
+    color: white;
+    font-Size: 20px;
+    margin: 0 auto;
+}
+@media (max-width: 600px) {
+    .buttonBack {
+        padding: 20px 10px;
+    }
+    .buttonNext {
+        padding: 20px 10px;
+    }
+    .text-name {
+        font-Size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    .text-name {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 400px) {
+    .text-name {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,29 @@
+.image {
+    width: 250px;
+    height: 240px;
+}
+.imagePs {
+    width: 510px;
+    height: 190px;
+}
+
+.text {
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+    .imagePs {
+        width: 310px;
+        height: 100px;
+    }
+    .text {
+        font-size: 30px;
+    }
+}
